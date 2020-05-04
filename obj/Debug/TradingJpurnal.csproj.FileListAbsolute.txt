@@ -1,0 +1,12 @@
+D:\projects\TradingJpurnal\bin\Debug\TradingJpurnal.exe.config
+D:\projects\TradingJpurnal\bin\Debug\TradingJpurnal.exe
+D:\projects\TradingJpurnal\bin\Debug\TradingJpurnal.pdb
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.csprojAssemblyReference.cache
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.Form1.resources
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.Properties.Resources.resources
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.csproj.GenerateResource.cache
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.csproj.CoreCompileInputs.cache
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.exe
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.pdb
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.TradeWriter.resources
+D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.Review.resources
