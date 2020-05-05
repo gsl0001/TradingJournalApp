@@ -10,3 +10,17 @@ D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.exe
 D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.pdb
 D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.TradeWriter.resources
 D:\projects\TradingJpurnal\obj\Debug\TradingJpurnal.Review.resources
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\bin\Debug\TradingJpurnal.exe.config
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\bin\Debug\TradingJpurnal.exe
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\bin\Debug\TradingJpurnal.pdb
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\bin\Debug\SQLite.NET.dll
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.csprojAssemblyReference.cache
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.Form1.resources
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.Properties.Resources.resources
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.Review.resources
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.TradeWriter.resources
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.csproj.GenerateResource.cache
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.csproj.CoreCompileInputs.cache
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.csproj.CopyComplete
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.exe
+C:\Users\gsl45\Desktop\projects\TradingJournalApp\obj\Debug\TradingJpurnal.pdb

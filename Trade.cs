@@ -74,7 +74,9 @@ namespace TradingJpurnal
 
         }
 
-        private string ToString( )
+
+        public string ToString()
+
         {
             return string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12},{13},{14}" , 
                 this.time,this.day, this.ticker, this.size, this.entry, this.exit, this.stratagey, this.fplan, this.dirc, this.note, this.pl,this.glp, this.gainPerShare, this.grossExp, this.grossReturn);

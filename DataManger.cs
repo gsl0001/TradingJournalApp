@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace TradingJpurnal
 {
@@ -15,11 +12,13 @@ namespace TradingJpurnal
         {
             using (TextWriter tw = new StreamWriter("data.txt"))
             {
-                foreach (var item in trades)
+                foreach (Trade item in trades)
                 {
                     tw.WriteLine(item.ToString());
+
                 }
             }
+
         }
 
         public static void ReadData()

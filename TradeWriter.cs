@@ -47,14 +47,27 @@ namespace TradingJpurnal
         private void save_Click(object sender, EventArgs e)
 
         {
-           
-            //test.Text = string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}", time.Text, dd.Text, tk.Text, int.Parse(s.Text.ToString()), double.Parse(et.Text.ToString()), double.Parse(ex.Text.ToString()), s.Text, p.Text, ls.Text, n.Text);
-            //Console.Write(string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}", time.Text, dd.Text, tk.Text, int.Parse(s.Text), double.Parse(et.Text), double.Parse(ex.Text), s.Text, p.Text, ls.Text, n.Text));
-             DataManger.trades.Add(new Trade(time.Text, dd.Text, tk.Text, int.Parse(s.Text+""), double.Parse(et.Text+""), double.Parse(ex.Text+""), s.Text, p.Text, ls.Text, n.Text));
+            DataManger.trades.Add(new Trade(time.Text, dd.Text, tk.Text, Convert.ToInt32(size.Text), Convert.ToDouble(et.Text), Convert.ToDouble(ex.Text), s.Text, p.Text, ls.Text, n.Text));
+            DataManger.SaveData();
+            this.l3.Text = "Saved Successfully !";
         }
 
         private void time_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void et_TextChanged(object sender, EventArgs e)
+        {
+            te.Text = Calc.exposureCalc( Convert.ToDouble(et.Text), Convert.ToInt32(size.Text))+"";
+        }
+
+        private void ex_TextChanged(object sender, EventArgs e)
+        {
+           ae.Text = Calc.exposureCalc(Convert.ToDouble(ex.Text), Convert.ToInt32(size.Text)) + "";
+           tpl.Text = Calc.plCalc(Convert.ToInt32(size.Text), Convert.ToDouble(et.Text), Convert.ToDouble(ex.Text), ls.Text)+"";
+           plp.Text = Calc.gainPercenCalc(Convert.ToDouble(et.Text), Convert.ToDouble(ex.Text), ls.Text) + "";
+            psg.Text = Calc.perSharePlCalc(Convert.ToDouble(et.Text), Convert.ToDouble(ex.Text), ls.Text) + "";
 
         }
     }
